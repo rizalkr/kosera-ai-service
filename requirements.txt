@@ -1,0 +1,16 @@
+# AI Service Dependencies
+# FastAPI framework
+fastapi==0.109.2
+uvicorn[standard]==0.27.1
+
+# Sentence Transformers for text embedding
+sentence-transformers==2.3.1
+
+# Data validation
+pydantic==2.6.1
+
+# HTTP client (for health checks)
+httpx==0.26.0
+
+# Numpy for vector operations
+numpy==1.26.4
